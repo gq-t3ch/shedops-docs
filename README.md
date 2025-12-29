@@ -455,7 +455,6 @@ A continuación, se formulan las hipótesis del proyecto bajo el enfoque Lean UX
 
 <p align="justify"> <b>Creemos que</b> un modelo multi-tenant con control por roles (RBAC) reducirá riesgos de acceso indebido y sentará una base sólida para la escalabilidad del producto sin introducir complejidad innecesaria al usuario final. </p> <p align="justify"> <b>Sabremos que</b> hemos tenido éxito cuando se verifique, mediante pruebas funcionales, que un usuario no puede acceder ni modificar información de otro negocio (tenant) y que al menos el 90% de las acciones restringidas por rol (Admin/Staff) se bloqueen correctamente cuando corresponda. </p>
 
-
 #### 1.2.2.4. Lean UX Canvas
 
 <p align="justify">
@@ -465,7 +464,7 @@ El Lean UX Canvas es una herramienta que permite sintetizar, en una sola vista, 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span><strong>Business Problem</strong></span>
+      <span><strong>1. Business Problem</strong></span>
       <p align="justify">
         Los micro y pequeños negocios de servicios que gestionan citas con WhatsApp/Excel sufren dobles reservas,
         reprogramaciones/cancelaciones desordenadas, baja visibilidad del calendario y poca trazabilidad de cambios,
@@ -473,7 +472,7 @@ El Lean UX Canvas es una herramienta que permite sintetizar, en una sola vista, 
       </p>
     </td>
     <td style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;" rowspan="2">
-      <span><strong>Solutions</strong></span>
+      <span><strong>5. Solutions</strong></span>
       <p align="justify">
         ShedOps proporciona una plataforma web (MVP) de gestión de reservas que centraliza clientes, servicios y agenda,
         incorporando reglas de disponibilidad (por negocio y por staff), bloqueos (breaks/time off), prevención de solapamientos
@@ -482,7 +481,7 @@ El Lean UX Canvas es una herramienta que permite sintetizar, en una sola vista, 
       </p>
     </td>
     <td style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span><strong>Business Outcomes</strong></span>
+      <span><strong>2. Business Outcomes</strong></span>
       <p align="justify">
         En una prueba piloto (4–8 semanas) con 2–3 negocios: reducir a ~0 los incidentes de doble reserva causados por solapamiento
         (por rechazo de la regla), disminuir en 20–30% el tiempo administrativo para crear/reprogramar/cancelar reservas,
@@ -493,7 +492,7 @@ El Lean UX Canvas es una herramienta que permite sintetizar, en una sola vista, 
   </tr>
   <tr>
     <td style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span><strong>Users</strong></span>
+      <span><strong>3. Users</strong></span>
       <p>Nuestros usuarios incluyen:</p>
       <ul style="padding-left: 18px; margin: 0;">
         <li>
@@ -507,7 +506,7 @@ El Lean UX Canvas es una herramienta que permite sintetizar, en una sola vista, 
       </ul>
     </td>
     <td style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span><strong>User Outcomes &amp; Benefits</strong></span>
+      <span><strong>4. User Outcomes &amp; Benefits</strong></span>
       <p>Esperamos que nuestros usuarios logren:</p>
       <p align="justify">
         <b>Admin:</b> Mayor control y orden operativo, con visibilidad centralizada y trazabilidad mínima de cambios
@@ -520,7 +519,7 @@ El Lean UX Canvas es una herramienta que permite sintetizar, en una sola vista, 
 
   <tr>
     <td style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span><strong>Hypotheses</strong></span>
+      <span><strong>6. Hypotheses</strong></span>
       <p align="justify">
         <em>Si</em> el sistema aplica validación de no-solapamiento y disponibilidad (horarios + bloqueos) al crear o editar reservas,
         <em>entonces</em> los incidentes de doble reserva tenderán a 0 durante el piloto.
@@ -545,23 +544,39 @@ El Lean UX Canvas es una herramienta que permite sintetizar, en una sola vista, 
       </p>
     </td>
     <td align="justify" style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span><strong>¿What's the most important thing we need to learn first?</strong></span>
+      <span><strong>7. ¿What's the most important thing we need to learn first?</strong></span>
       <p>
        Validar si ShedOps resuelve el dolor principal del negocio: que Admin y Staff adopten la plataforma como la “fuente única de verdad” para gestionar la agenda, confiando en la prevención de solapamientos y en las reglas de disponibilidad, en lugar de seguir coordinando y registrando reservas en WhatsApp o Excel.
       </p>
     </td>
     <td align="justify" style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span><strong>What's the least amount of work we need to do to learn the next most important thing?</strong></span>
+      <span><strong>8. What's the least amount of work we need to do to learn the next most important thing?</strong></span>
       <p>
-        Implementar un MVP funcional con: (1) creación/edición/cancelación de reservas, (2) validación de solapamientos,
-        (3) horarios + bloqueos, (4) roles Admin/Staff y (5) vista Día/Semana. Probarlo con 2–3 negocios piloto durante 2 semanas,
-        midiendo: intentos de solapamiento rechazados, tiempo por operación (crear/reprogramar/cancelar), y una encuesta corta de CSAT.
+      Implementar un MVP funcional con:
       </p>
+      <ol>
+          <li>
+            Creación/edición/cancelación de reservas,
+          </li>
+          <li>
+            Validación de solapamientos,
+          </li>
+          <li>
+            Horarios + bloqueos,
+          </li>
+          <li>
+            Roles Admin/Staff y vista Día/Semana.
+          </li>
+        </ol>
+        <p align="justify">
+        Probarlo con 2–3 negocios piloto durante 2 semanas, midiendo: intentos de solapamiento rechazados, tiempo por operación (crear/reprogramar/cancelar), y una encuesta corta de CSAT.
+        </p>
     </td>
   </tr>
 </table>
 
 ## 1.3. Segmentos Objetivos
+
 <p align="justify">
 Para que ShedOps genere valor real en la operación diaria de los negocios de servicios y alcance una adopción efectiva, es fundamental identificar con claridad los segmentos de usuarios a los que está dirigida la solución. A continuación, se presentan los perfiles de los usuarios objetivo, considerando sus características geográficas, psicográficas y demográficas, con el fin de delimitar el enfoque del MVP y orientar adecuadamente el diseño del producto.
 </p>
