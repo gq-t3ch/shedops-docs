@@ -108,7 +108,7 @@ La startup se especializa en la implementación de productos con criterios de ca
 
 <table width="100%">
   <tr>
-    <td align="center" valign="middle" width="150">
+    <td align="center" valign="middle" width="250">
       <img src="assets/gonzalo-profile.webp" width="140" style="border-radius: 50%;" />
     </td>
     <td valign="middle" width="200">
@@ -305,13 +305,13 @@ fricción operativa frente al uso de WhatsApp y hojas de cálculo.
   <b>Gap</b>
   <ul>
     <li align="justify">
-      <b>La operación basada en WhatsApp/Excel no aplica reglas automáticas de disponibilidad ni impide conflictos en el momento de agendar.</b>
+      <b>La operación basada en WhatsApp/Excel</b> no aplica reglas automáticas de disponibilidad ni impide conflictos en el momento de agendar.
     </li>
     <li align="justify">
       <b>Herramientas genéricas (calendarios comunes):</b> no suelen incorporar flujo de reservas orientado a negocio, roles, restricciones por servicio/staff y trazabilidad operativa.
     </li>
     <li align="justify">
-      <b>No existe una plataforma simple, centrada en el negocio pequeño, que unifique clientes + servicios + agenda, con reglas consistentes y enfoque SaaS (aislamiento por negocio / multi-tenant).</b>
+      No existe una plataforma simple, centrada en el negocio pequeño, que unifique clientes + servicios + agenda, con reglas consistentes y enfoque SaaS (aislamiento por negocio / multi-tenant).
     </li>
   </ul>
 </div>
@@ -513,13 +513,13 @@ El Lean UX Canvas es una herramienta que permite sintetizar, en una sola vista, 
       </p>
     </td>
     <td style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span><strong>¿What's the most important thing we need to learn first?</strong></span>
+      <span align="justify"><strong>¿What's the most important thing we need to learn first?</strong></span>
       <p align="justify">
        Validar si ShedOps resuelve el dolor principal del negocio: que Admin y Staff adopten la plataforma como la “fuente única de verdad” para gestionar la agenda, confiando en la prevención de solapamientos y en las reglas de disponibilidad, en lugar de seguir coordinando y registrando reservas en WhatsApp o Excel.
       </p>
     </td>
     <td style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span><strong>What's the least amount of work we need to do to learn the next most important thing?</strong></span>
+      <span align="justify"><strong>What's the least amount of work we need to do to learn the next most important thing?</strong></span>
       <p align="justify">
         Implementar un MVP funcional con: (1) creación/edición/cancelación de reservas, (2) validación de solapamientos,
         (3) horarios + bloqueos, (4) roles Admin/Staff y (5) vista Día/Semana. Probarlo con 2–3 negocios piloto durante 2 semanas,
