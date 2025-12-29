@@ -38,10 +38,10 @@
         <td align="justify">Actualización parcial del Capítulo I: se redactó la descripción de la startup (GQ Technology) y del producto ShedOps, se desarrollaron antecedentes y problemática, y se elaboraron las secciones Lean UX (Problem Statements, Assumptions y Canvas), además de la introducción y caracterización de los segmentos objetivo.</td>
     </tr>
     <tr>
-        <td>[Version]</td>
-        <td>[Date]</td>
-        <td>[Author]</td>
-        <td>[Description]</td>
+        <td>0.2.0</td>
+        <td>28/12/2025</td>
+        <td>Zavala Quedena, Gonzalo Andre</td>
+        <td align="justify">Actualización del Capítulo I: se incorporaron los Hypothesis Statements del proyecto bajo el enfoque Lean UX, definiendo criterios de éxito para validar el MVP.</td>
     </tr>
     <tr>
         <td>[Version]</td>
@@ -424,6 +424,38 @@ fricción operativa frente al uso de WhatsApp y hojas de cálculo.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+<p align="justify">
+A continuación, se formulan las hipótesis del proyecto bajo el enfoque Lean UX. Cada hipótesis establece una creencia sobre el comportamiento o la adopción esperada de los usuarios frente a <b>ShedOps</b>, y define un criterio observable que permitirá validar si la solución propuesta está generando valor. Estas hipótesis orientan el diseño del MVP y delimitan qué evidencia debe recolectarse durante pruebas piloto para confirmar o refutar los supuestos del equipo.
+</p>
+
+<div>
+  <b>Hipótesis 1</b>
+  <p align="justify"> <b>Creemos que</b> los administradores (Admin) adoptarán ShedOps si les ofrecemos un sistema de agenda centralizado que prevenga automáticamente los solapamientos y permita gestionar disponibilidad y bloqueos de manera clara. </p> <p align="justify"> <b>Sabremos que</b> hemos tenido éxito cuando durante el primer mes de uso piloto al menos el 70% de las reservas se registren y gestionen completamente dentro de ShedOps (sin depender de WhatsApp/Excel) y los intentos de solapamiento sean rechazados por el sistema, manteniendo los incidentes de doble reserva cercanos a cero. </p>
+</div>
+
+<div>
+  <b>Hipótesis 2</b>
+  <p align="justify"> <b>Creemos que</b> el personal operativo (Staff) percibirá valor en ShedOps si la plataforma les permite visualizar su agenda en una vista Día/Semana y ejecutar acciones clave (crear, reprogramar, reasignar y cancelar reservas) de forma rápida y sin ambigüedades. </p> <p align="justify"> <b>Sabremos que</b> hemos tenido éxito cuando al menos el 80% del Staff complete las tareas clave sin ayuda externa en la primera semana de uso y el tiempo promedio para reprogramar o cancelar una reserva se reduzca entre 20% y 30% frente al proceso actual. </p>
+</div>
+
+<div>
+  <b>Hipótesis 3</b>
+  <p align="justify"> <b>Creemos que</b> la trazabilidad mínima de cambios (quién realizó el cambio y cuándo) incrementará la confianza operativa del Admin y reducirá la necesidad de validaciones manuales o revisiones en chats. </p> <p align="justify"> <b>Sabremos que</b> hemos tenido éxito cuando en al menos el 80% de los casos de reprogramación, reasignación o cancelación, el Admin pueda identificar responsable y momento del cambio directamente en la plataforma, sin recurrir a registros externos.</p>
+</div>
+
+<div>
+  <b>Hipótesis 4</b>
+  <p align="justify"> <b>Creemos que</b> incorporar el flujo de recordatorios (aunque sea simulado en el MVP) aumentará la percepción de orden del proceso y facilitará el seguimiento administrativo de las reservas. </p> <p align="justify"> <b>Sabremos que</b> hemos tenido éxito cuando al menos el 85% de los usuarios (Admin y Staff) califique positivamente (CSAT ≥ 85%) la dimensión de “organización y seguimiento”, y más del 70% de las reservas cuente con un registro de recordatorio generado y consultable dentro del sistema. </p>
+</div>
+
+<div>
+  <b>Hipótesis 5</b>
+  <p align="justify"> <b>Creemos que</b> un modelo multi-tenant con control por roles (RBAC) reducirá riesgos de acceso indebido y sentará una base sólida para la escalabilidad del producto sin introducir complejidad innecesaria al usuario final. </p> <p align="justify"> <b>Sabremos que</b> hemos tenido éxito cuando se verifique, mediante pruebas funcionales, que un usuario no puede acceder ni modificar información de otro negocio (tenant) y que al menos el 90% de las acciones restringidas por rol (Admin/Staff) se bloqueen correctamente cuando corresponda. </p>
+</div>
+
+<p align="justify"> <b>Creemos que</b> un modelo multi-tenant con control por roles (RBAC) reducirá riesgos de acceso indebido y sentará una base sólida para la escalabilidad del producto sin introducir complejidad innecesaria al usuario final. </p> <p align="justify"> <b>Sabremos que</b> hemos tenido éxito cuando se verifique, mediante pruebas funcionales, que un usuario no puede acceder ni modificar información de otro negocio (tenant) y que al menos el 90% de las acciones restringidas por rol (Admin/Staff) se bloqueen correctamente cuando corresponda. </p>
+
+
 #### 1.2.2.4. Lean UX Canvas
 
 <p align="justify">
@@ -512,15 +544,15 @@ El Lean UX Canvas es una herramienta que permite sintetizar, en una sola vista, 
         “organización y seguimiento”.
       </p>
     </td>
-    <td style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span align="justify"><strong>¿What's the most important thing we need to learn first?</strong></span>
-      <p align="justify">
+    <td align="justify" style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
+      <span><strong>¿What's the most important thing we need to learn first?</strong></span>
+      <p>
        Validar si ShedOps resuelve el dolor principal del negocio: que Admin y Staff adopten la plataforma como la “fuente única de verdad” para gestionar la agenda, confiando en la prevención de solapamientos y en las reglas de disponibilidad, en lugar de seguir coordinando y registrando reservas en WhatsApp o Excel.
       </p>
     </td>
-    <td style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
-      <span align="justify"><strong>What's the least amount of work we need to do to learn the next most important thing?</strong></span>
-      <p align="justify">
+    <td align="justify" style="border: 1px solid black; text-align: justify; padding: 8px; vertical-align: top;">
+      <span><strong>What's the least amount of work we need to do to learn the next most important thing?</strong></span>
+      <p>
         Implementar un MVP funcional con: (1) creación/edición/cancelación de reservas, (2) validación de solapamientos,
         (3) horarios + bloqueos, (4) roles Admin/Staff y (5) vista Día/Semana. Probarlo con 2–3 negocios piloto durante 2 semanas,
         midiendo: intentos de solapamiento rechazados, tiempo por operación (crear/reprogramar/cancelar), y una encuesta corta de CSAT.
