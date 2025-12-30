@@ -71,6 +71,12 @@
 
 **[1.3. Segmentos Objetivos](#13-segmentos-objetivos)**
 
+### [Capítulo II: Competitive Analysis and Strategic Positioning](#capítulo-ii-competitive-analysis-and-strategic-positioning)
+
+**[2.1. Competidores](#21-competidores)**  
+[2.1.1. Análisis competitivo](#211-análisis-competitivo)  
+[2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+
 <div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
@@ -649,3 +655,365 @@ Para que ShedOps genere valor real en la operación diaria de los negocios de se
     </tr>
   </tbody>
 </table>
+
+<div style="page-break-after: always;"></div>
+
+# Capítulo II: Competitive Analysis and Strategic Positioning
+
+## 2.1. Competidores
+<p align="justify">
+Luego de realizar una investigación de mercado, hemos identificado 3 competidores que ofrecen soluciones relacionadas con gestión de reservas/citas, administración de servicios y clientes, y agenda/calendario para negocios de servicios (SMBs). Las plataformas presentadas a continuación presentan características similares o alternativas a las que propone ShedOps. Los principales competidores son:
+</p>
+
+<table>
+    <tr>
+        <td>
+            <img src="https://xms-production-f.squarecdn.com/xms/assets/public-web-styles/social/default-56f973ec4d9cb2927e20a0cb97201783e27bf352585fa25cddbde11aa81635a7.jpg" alt="Square Appointments Logo" width="600"/>
+        </td>
+        <td valign="center">
+            <b>1. Square Appointments</b><br/>
+            <p align="justify">
+                Plataforma de gestión de citas y calendario orientada a pequeños negocios, integrada al ecosistema de Square. Destaca por su enfoque operativo “todo en uno” (agenda + flujo de atención y, en muchos casos, pagos), lo que la convierte en una solución madura para negocios que buscan centralizar su operación en una sola plataforma.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://images.seeklogo.com/logo-png/35/1/simplybook-me-logo-png_seeklogo-352237.png" alt="SimplyBook.me Logo" width="600"/>
+        </td>
+        <td valign="center">
+            <b>2. SimplyBook.me</b><br/>
+            <p align="justify">
+                Sistema de reservas online con un conjunto amplio de configuraciones y módulos para negocios de servicios. Permite administrar servicios, disponibilidad y reservas con distintos niveles de personalización, lo que la posiciona como una alternativa flexible para quienes requieren adaptar el flujo de booking a su operación.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+	          <img src="https://acuityscheduling.com/img/brand/logo_bluebkgrd.png" alt="Acuity Scheduling Logo" width="600"/>
+        </td>
+        <td valign="center">
+            <b>3. Acuity Scheduling (Squarespace Scheduling)</b><br/>
+            <p align="justify">
+                Herramienta reconocida para programación de citas, enfocada en facilitar el agendamiento y la administración de disponibilidad. Suele destacar por su experiencia de usuario consolidada y por ofrecer un flujo de reservas claro y estructurado para profesionales y pequeños equipos.
+            </p>
+        </td>
+    </tr>
+</table>
+
+### 2.1.1. Análisis competitivo
+
+<table>
+  <tr>
+    <th colspan="7" valign="top" align="justify"><b>Competitive Analysis Landscape</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2" align="justify">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5" align="justify">
+      ¿Cómo se posiciona <b>ShedOps</b> frente a plataformas líderes de reservas/citas para negocios de servicios (SMBs) y
+      qué oportunidades de diferenciación existen para el <b>MVP</b>?
+    </td>
+  </tr>
+  <tr>
+    <td colspan="5" align="justify">
+      El objetivo es comparar a ShedOps con soluciones consolidadas de agendamiento y reservas para identificar
+      fortalezas, brechas y oportunidades de posicionamiento. Este análisis permite definir decisiones de producto
+      alineadas al MVP (calendario día/semana, prevención de conflictos, bloqueos, servicios, clientes, roles y
+      recordatorios simulados), evitando alcance innecesario y focalizando diferenciadores verificables a nivel de
+      reglas de negocio y operación interna.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3" align="justify">Panorama competitivo (producto vs. competidores)</td>
+    <td colspan="1" valign="top" style="font-weight: bold;" align="justify">
+      ShedOps
+      <div style="margin-top: 10px;" align="center">
+        <!-- Logo de ShedOps: se añadirá posteriormente -->
+      </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;" align="justify">
+      Square Appointments
+      <div style="margin-top: 20px;" align="center">
+        <img src="https://xms-production-f.squarecdn.com/xms/assets/public-web-styles/social/default-56f973ec4d9cb2927e20a0cb97201783e27bf352585fa25cddbde11aa81635a7.jpg" alt="Logo Square Appointments" width="100px"/>
+      </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;" align="justify">
+      SimplyBook.me
+      <div style="margin-top: 10px;" align="center">
+        <img src="https://images.seeklogo.com/logo-png/35/1/simplybook-me-logo-png_seeklogo-352237.png" alt="Logo SimplyBook.me" width="100px"/>
+      </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;" align="justify">
+      Acuity Scheduling
+      <div style="text-align: center; margin-top: 10px;">
+        <img src="https://acuityscheduling.com/img/brand/logo_bluebkgrd.png" alt="Logo Acuity Scheduling" width="100px"/>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2" align="center"><p>Perfil</p></td>
+    <td colspan="2" align="center">Overview</td>
+    <td colspan="1" valign="top" align="justify">
+      SaaS multi-tenant para gestión de reservas/citas en negocios de servicios. Incluye catálogo de servicios,
+      clientes, roles (Admin/Staff), calendario día/semana, bloqueos y reglas de prevención de traslapes; recordatorios
+      simulados para evidenciar el flujo sin integraciones externas en el MVP.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Plataforma de citas integrada al ecosistema Square, orientada a operación “todo en uno” para SMBs (agenda,
+      disponibilidad, clientes y, típicamente, herramientas operativas conectadas al entorno Square).
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Sistema de reservas online con módulos y configuraciones amplias para administrar servicios, disponibilidad,
+      reservas y opciones de personalización para distintos tipos de negocios de servicios.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Herramienta especializada en scheduling para profesionales y equipos pequeños, con UX consolidada para
+      autogestión de citas y administración de disponibilidad.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">Ventaja competitiva<br/>¿Qué valor ofrece a los clientes?</td>
+    <td colspan="1" valign="top" align="justify">
+      Enfoque en operación interna simple y confiable: aislamiento multi-tenant, control de acceso por roles y
+      reglas estrictas anti-conflicto a nivel backend. Diseño acotado al MVP para rápida adopción y despliegue
+      reproducible (dockerizado).
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Ecosistema integrado (operación + herramientas complementarias del stack Square), madurez del producto y flujo
+      end-to-end para negocios que buscan centralizar procesos.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Alta flexibilidad y configurabilidad: permite adaptar el proceso de booking a múltiples necesidades, apoyado
+      por módulos e integraciones.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Experiencia de scheduling pulida y orientada a rapidez de uso, con flujos claros de disponibilidad y reservas,
+      integraciones comunes y facilidad para autogestión de citas.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2" align="center"><p>Perfil de Marketing</p></td>
+    <td colspan="2" align="center">Mercado objetivo</td>
+    <td colspan="1" valign="top" align="justify">
+      SMBs de servicios que hoy operan con WhatsApp/Excel y requieren ordenar agenda, servicios, clientes y staff
+      bajo roles, con prevención de traslapes y bloqueos.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Pequeños negocios que ya usan o evalúan el ecosistema Square y desean una solución integrada para su operación.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Negocios de servicios que buscan reservas online configurables (varios servicios, personal, reglas de
+      disponibilidad y personalización del flujo).
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Profesionales independientes y pequeños equipos que priorizan un scheduling eficiente, con autogestión de citas
+      y administración de disponibilidad.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">Estrategias de marketing</td>
+    <td colspan="1" valign="top" align="justify">
+      Posicionamiento por simplicidad y confiabilidad operativa (anti-conflicto + roles + multi-tenant). Demostración
+      con casos reales de “migración” desde WhatsApp/Excel, documentación clara del producto y demo guiada del MVP.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Cross-sell dentro del stack Square, adquisición por ecosistema, presencia en canales orientados a SMB y énfasis
+      en la propuesta “todo en uno”.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Captación por SEO de “online booking”, segmentación por nichos, paquetes/planes por capacidades y énfasis en
+      integraciones y personalización.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Bundling y sinergia con ecosistemas web (p. ej., presencia digital), contenido educativo sobre scheduling y
+      captación por necesidad de autogestión de citas y productividad.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="3" align="center"><p>Perfil de Producto</p></td>
+    <td colspan="2" align="center">Productos &amp; Servicios</td>
+    <td colspan="1" valign="top" align="justify">
+      Gestión multi-tenant del negocio; usuarios y roles (Admin/Staff); catálogo de servicios; gestión de clientes;
+      reservas con validación anti-traslape; bloqueos de disponibilidad; calendario día/semana; recordatorios simulados
+      (logs/estados).
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Scheduling de citas; gestión de disponibilidad y staff; clientes; herramientas operativas integrables con el
+      entorno Square (según configuración).
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Booking online; administración de servicios, staff y clientes; configuraciones y módulos para adaptar el flujo;
+      integraciones y extensiones según plan.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Programación de citas; disponibilidad; flujos de reserva; herramientas de gestión para profesionales/equipos;
+      integraciones comunes y opciones adicionales según plan.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">Precios &amp; Costos</td>
+    <td colspan="1" valign="top" align="justify">
+      MVP sin monetización obligatoria definida (enfoque académico/portfolio). En fases posteriores, potencial
+      suscripción mensual por negocio (tenant) con escalamiento por usuarios/funcionalidades.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Modelo comercial por planes del ecosistema, típicamente por suscripción con variación según capacidades
+      requeridas e integración con el stack Square.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Planes por suscripción escalonados; el costo se incrementa según módulos, límites y capacidades habilitadas.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Planes por suscripción con escalamiento por funcionalidades y necesidades del equipo (capas de valor por nivel).
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">Canales de distribución (Web y/o Móvil)</td>
+    <td colspan="1" valign="top" align="justify">
+      Aplicación web (responsive) + API; despliegue reproducible con Docker/Docker Compose para demo y operación.
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Plataforma web y acceso móvil según el ecosistema Square (apps/herramientas complementarias).
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Principalmente web; acceso móvil usualmente soportado (según herramientas disponibles en el proveedor).
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      Principalmente web (dashboard y booking); uso móvil normalmente vía navegador y/o herramientas del ecosistema.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="5" align="center"><p>Análisis SWOT</p></td>
+    <td colspan="6" align="justify">
+      Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a
+      lo que ustedes definen como su posible ventaja competitiva.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Fortalezas</td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Arquitectura multi-tenant con aislamiento por negocio.</li>
+        <li>RBAC (Admin/Staff) para operación multiusuario controlada.</li>
+        <li>Reglas anti-conflicto y bloqueos implementadas a nivel backend.</li>
+        <li>Despliegue reproducible (Docker) y enfoque MVP sin sobrecarga funcional.</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Integración con ecosistema Square (operación y herramientas complementarias).</li>
+        <li>Producto maduro con flujos end-to-end para SMB.</li>
+        <li>Marca y adopción ampliamente reconocidas en el mercado.</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Alta configurabilidad del proceso de reservas.</li>
+        <li>Amplio set de módulos/funciones para distintos nichos.</li>
+        <li>Enfoque claro en online booking para negocios de servicios.</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>UX consolidada y orientada a rapidez de scheduling.</li>
+        <li>Flujos claros para autogestión de citas y disponibilidad.</li>
+        <li>Integraciones comunes y madurez operativa en scheduling.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Debilidades</td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Recordatorios solo simulados en el MVP (sin mensajería real).</li>
+        <li>Menor amplitud funcional frente a suites consolidadas.</li>
+        <li>Sin marca ni base instalada frente a incumbentes.</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Dependencia del ecosistema Square para el máximo valor.</li>
+        <li>Puede resultar “overkill” para necesidades mínimas.</li>
+        <li>Menor foco en un SaaS ligero y neutral (fuera del stack).</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Curva de aprendizaje por amplitud y configuración.</li>
+        <li>Complejidad por módulos/planes y opciones disponibles.</li>
+        <li>Riesgo de sobredimensionar la solución para algunos SMB.</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Enfoque fuerte en scheduling; menos orientado a operación interna completa.</li>
+        <li>Multi-tenant no suele ser el foco (comparado con SaaS por negocio).</li>
+        <li>Funcionalidades avanzadas suelen depender del plan contratado.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Oportunidades</td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>SMBs que migran desde WhatsApp/Excel y necesitan orden operativo.</li>
+        <li>Escalar a recordatorios reales (WhatsApp/SMS/email) post-MVP.</li>
+        <li>Agregar pagos/facturación como fase posterior sin afectar el core.</li>
+        <li>Verticalizar por rubros (barberías, talleres, consultorios, etc.).</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Profundizar el cross-sell del ecosistema en nuevos nichos SMB.</li>
+        <li>Expandir capacidades de operación integrada (servicios + cobros).</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Captación por nichos con necesidades específicas de booking.</li>
+        <li>Alianzas e integraciones para ampliar propuesta modular.</li>
+        <li>Crecimiento sostenido de reservas online en SMB.</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Sinergias con presencia digital de negocios (sitio + reservas).</li>
+        <li>Crecimiento de servicios remotos y autogestión de citas.</li>
+        <li>Paquetización para profesionales/equipos con necesidades simples.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">Amenazas</td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Incumbentes con mayor madurez, marca e integraciones.</li>
+        <li>Costos de cambio percibidos por usuarios (inercia operativa).</li>
+        <li>Riesgo de “feature creep” que diluya el MVP y el posicionamiento.</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Competencia directa de suites de booking con menor dependencia de ecosistema.</li>
+        <li>Cambios regulatorios/operativos que afecten servicios integrados (p. ej., cobros).</li>
+        <li>Churn de SMBs por sensibilidad a precios y rotación de herramientas.</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Comoditización del mercado de reservas online.</li>
+        <li>Competidores con paquetes más simples o más integrados.</li>
+        <li>Incremento de costos por competir en múltiples nichos a la vez.</li>
+      </ul>
+    </td>
+    <td colspan="1" valign="top" align="justify">
+      <ul>
+        <li>Mercado altamente competitivo con herramientas similares.</li>
+        <li>Dependencias de ecosistemas/plataformas para parte del valor.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
