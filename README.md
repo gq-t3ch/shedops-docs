@@ -44,6 +44,14 @@
         <td align="justify">Actualización del Capítulo I: se incorporaron los Hypothesis Statements del proyecto bajo el enfoque Lean UX, definiendo criterios de éxito para validar el MVP.</td>
     </tr>
     <tr>
+        <td>0.3.0</td>
+        <td>31/12/2025</td>
+        <td>Zavala Quedena, Gonzalo Andre</td>
+        <td align="justify">
+          Actualización del Capítulo II: se identificaron y describieron los competidores principales de ShedOps (Square Appointments, SimplyBook.me y Acuity Scheduling), se construyó el Competitive Analysis Landscape con comparación por perfil, marketing, producto y SWOT, y se definieron estrategias y tácticas preliminares para el posicionamiento del MVP frente a la competencia.
+        </td>
+    </tr>
+    <tr>
         <td>[Version]</td>
         <td>[Date]</td>
         <td>[Author]</td>
@@ -172,6 +180,8 @@ La startup se especializa en la implementación de productos con criterios de ca
   </tr>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y Problemática
@@ -253,6 +263,8 @@ La gestión de reservas basada en mensajería (p. ej., WhatsApp) y hojas de cál
   Impacto cualitativo directo en eficiencia (tiempo administrativo), calidad del servicio (errores de agenda) y experiencia del cliente (cambios/recordatorios). Para el MVP, el foco es demostrar reducción de conflictos y mejora de control mediante reglas determinísticas y trazabilidad mínima.
   </p>
 </div>
+
+<div style="page-break-after: always;"></div>
 
 ### 1.2.2. Lean UX Process
 
@@ -354,6 +366,8 @@ fricción operativa frente al uso de WhatsApp y hojas de cálculo.
   </ul>
 </div>
 
+<div style="page-break-after: always;"></div>
+
 #### 1.2.2.2. Lean UX Assumptions
 
 <div>
@@ -428,6 +442,8 @@ fricción operativa frente al uso de WhatsApp y hojas de cálculo.
   </ol>
 </div>
 
+<div style="page-break-after: always;"></div>
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 <p align="justify">
@@ -460,6 +476,8 @@ A continuación, se formulan las hipótesis del proyecto bajo el enfoque Lean UX
 </div>
 
 <p align="justify"> <b>Creemos que</b> un modelo multi-tenant con control por roles (RBAC) reducirá riesgos de acceso indebido y sentará una base sólida para la escalabilidad del producto sin introducir complejidad innecesaria al usuario final. </p> <p align="justify"> <b>Sabremos que</b> hemos tenido éxito cuando se verifique, mediante pruebas funcionales, que un usuario no puede acceder ni modificar información de otro negocio (tenant) y que al menos el 90% de las acciones restringidas por rol (Admin/Staff) se bloqueen correctamente cuando corresponda. </p>
+
+<div style="page-break-after: always;"></div>
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -1016,4 +1034,123 @@ Luego de realizar una investigación de mercado, hemos identificado 3 competidor
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+<p align="justify">
+En función del análisis competitivo realizado, ShedOps adoptará un conjunto de estrategias y tácticas preliminares orientadas a (i) enfrentar las fortalezas de plataformas consolidadas, (ii) capitalizar sus debilidades/limitaciones respecto a necesidades operativas mínimas, y (iii) aprovechar oportunidades del mercado objetivo (SMBs que operan con WhatsApp/Excel), manteniendo el alcance acotado al MVP.
+</p>
 
+<div>
+  <b>Estrategia 1: Diferenciación por “confiabilidad operativa” (operational correctness)</b>
+  <p align="justify">
+    <b>Objetivo:</b> competir no por amplitud de funcionalidades (donde los incumbentes dominan), sino por robustez del core de scheduling.
+  </p>
+  <b>Tácticas:</b>
+  <ul>
+    <li>
+      Implementar la prevención de conflictos (no traslapes) y bloqueos como reglas estrictas en el backend (no solo en UI), con mensajes de error consistentes y validaciones server-side.
+    </li>
+    <li>
+      Incorporar pruebas automatizadas para reglas críticas: traslapes, bloqueos, cambios de duración, reasignación de staff y escenarios de concurrencia básicos.
+    </li>
+    <li>
+      Estandarizar estados y trazabilidad mínima de reservas (creación/actualización/cancelación) para asegurar consistencia en la agenda día/semana.
+    </li>
+  </ul>
+  <p align="justify">
+    <b>Cómo enfrenta a competidores:</b> Square, SimplyBook y Acuity suelen ser robustos, pero ShedOps enfoca su propuesta en que el “core” sea demostrable y verificable (reglas + tests), en lugar de competir en integraciones o módulos.
+  </p>
+</div>
+
+<div>
+  <b>Estrategia 2: Enfoque en simplicidad y “time-to-setup” (adopción rápida)</b>
+  <p align="justify">
+    <b>Objetivo:</b> reducir fricción frente a suites más complejas (especialmente configurables) y facilitar la migración desde procesos manuales.
+  </p>
+  <b>Tácticas:</b>
+  <ul>
+    <li>
+      Flujo “mínimo viable” para iniciar: crear negocio (tenant) → crear staff → crear servicio → registrar cliente → agendar primera reserva → visualizar calendario.
+    </li>
+    <li>
+      Defaults operativos: horarios base, duración estándar de servicios, plantillas de servicios y datos de demostración (seed).
+    </li>
+    <li>
+      Gestión de clientes con detección simple de duplicados (por teléfono/email) sin entrar en soluciones complejas de consolidación.
+    </li>
+  </ul>
+  <p align="justify">
+    <b>Cómo aprovecha debilidades de competidores:</b> SimplyBook.me puede ser percibido como pesado/configurable; ShedOps se posiciona como “lo mínimo bien hecho” para SMBs.
+  </p>
+</div>
+
+<div>
+  <b>Estrategia 3: Posicionamiento “multi-tenant + roles” como ventaja estructural del MVP</b>
+  <p align="justify">
+    <b>Objetivo:</b> reforzar que ShedOps está pensado como SaaS por negocio, con control interno de acceso, y no solo como agenda personal.
+  </p>
+  <b>Tácticas:</b>
+  <ul>
+    <li>
+      Aislamiento estricto por tenant (datos de clientes, servicios, staff y reservas) con control de acceso por rol (Admin/Staff).
+    </li>
+    <li>
+      Permisos claros: el staff solo accede a su agenda/servicios asignados (según el modelo que definas), mientras el Admin gestiona configuración y visión global.
+    </li>
+    <li>
+      Documentación de seguridad y reglas de acceso (matriz simple de permisos) como soporte del producto.
+    </li>
+  </ul>
+  <p align="justify">
+    <b>Cómo enfrenta a competidores:</b> Acuity tiende a ser fuerte como herramienta de scheduling; ShedOps remarca el uso interno y controlado por roles para operación de negocio.
+  </p>
+</div>
+
+<div>
+  <b>Estrategia 4: Sustitución progresiva de WhatsApp/Excel con “puente operativo”</b>
+  <p align="justify">
+    <b>Objetivo:</b> capturar la oportunidad del mercado objetivo donde el dolor principal no es “más features”, sino orden y visibilidad.
+  </p>
+  <b>Tácticas:</b>
+  <ul>
+    <li>
+      Recordatorios simulados en MVP (log/estado) para demostrar el flujo sin integrar mensajería en esta fase.
+    </li>
+    <li>
+      Plantillas de mensajes listas para copiar/pegar (operación realista mientras no exista integración).
+    </li>
+    <li>
+      Priorización de UX para calendario día/semana y creación rápida de reserva, con foco en minimizar clics.
+    </li>
+  </ul>
+  <p align="justify">
+    <b>Cómo aprovecha oportunidades:</b> valida el caso de uso real (operación diaria) sin depender de integraciones externas.
+  </p>
+</div>
+
+<div>
+  <b>Estrategia 5: Control de alcance para reducir amenaza de incumbentes y asegurar entrega</b>
+  <p align="justify">
+    <b>Objetivo:</b> mitigar la amenaza principal: competir contra plataformas completas con integraciones, pagos y marca.
+  </p>
+  <b>Tácticas:</b>
+  <ul>
+    <li>
+      Definir explícitamente lo que no entra al MVP: pagos/facturación, integraciones reales (WhatsApp/SMS/email), marketplace, multi-sede, analítica avanzada.
+    </li>
+    <li>
+      Roadmap post-MVP solo como referencia, sin comprometer entregables.
+    </li>
+    <li>
+      Entrega “portfolio-quality”: dockerización, seed data, endpoints claros y criterios de aceptación verificables.
+    </li>
+  </ul>
+  <p align="justify">
+    <b>Cómo reduce amenazas:</b> evita “feature creep”, aumenta probabilidad de completar un MVP sólido y defendible.
+  </p>
+</div>
+
+<div>
+  <b>Síntesis estratégica</b>
+  <p align="justify">
+    ShedOps enfrentará a competidores consolidados evitando competir por amplitud funcional y posicionándose por robustez del scheduling, simplicidad de adopción, y una base SaaS multi-tenant con roles. Estas decisiones permiten aprovechar la oportunidad de SMBs con procesos manuales y reducir amenazas asociadas a la madurez e integraciones de los incumbentes, manteniendo coherencia con el alcance del MVP.
+  </p>
+</div>
